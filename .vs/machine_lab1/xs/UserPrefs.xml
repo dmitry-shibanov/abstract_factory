@@ -1,0 +1,33 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="machine_lab1/AbstractMachine.cs">
+    <Files>
+      <File FileName="machine_lab1/MyClass.cs" Line="10" Column="26" />
+      <File FileName="machine_lab1/AbstractMachine.cs" Line="18" Column="16" />
+      <File FileName="machine_lab1/IncorrectArgumentException.cs" Line="4" Column="64" />
+      <File FileName="machine_lab1/IAbstractFactory.cs" Line="11" Column="1" />
+      <File FileName="machine_lab1/HybridCar.cs" Line="11" Column="1" />
+      <File FileName="machine_lab1/Helicopter.cs" Line="11" Column="1" />
+      <File FileName="machine_lab1/FactoryCar.cs" Line="11" Column="1" />
+      <File FileName="machine_lab1/EnumTransport.cs" Line="8" Column="15" />
+      <File FileName="machine_lab1/Car.cs" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="machine_lab1" expanded="True">
+            <Node name="machine_lab1" expanded="True">
+              <Node name="AbstractMachine.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.machine__lab1 FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
