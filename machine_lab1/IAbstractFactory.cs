@@ -5,6 +5,6 @@ namespace machine_lab1
     {
         AbstractMachine createMachine(EnumTransport transport);
 
-        AbstractMachine createMachine(EnumTransport transport, double age, double speed);
+        AbstractMachine createMachine(EnumTransport transport, double age, double speed, double initialPrice);
     }
 }

@@ -8,6 +8,13 @@ namespace machine_lab1
         private double _price;
         private double _initialPrice;
 
+        public AbstractMachine(double age, double speed, double initialPrice)
+        {
+            this.age = age;
+            this.speed = speed;
+            this.initialPrice = initialPrice;
+        }
+
         public abstract double price
         {
             get;
@@ -15,6 +22,15 @@ namespace machine_lab1
 
         public double initialPrice
         {
+            private set
+            {
+                if (value < 0)
+                {
+                    throw new IncorrectArgumentException("Начальная цена машины не может быть отрицательной", "ошибка в поле initialPrice");
+                }
+
+                _initialPrice = value;
+            }
             get
             {
                 return _initialPrice;
@@ -23,7 +39,7 @@ namespace machine_lab1
 
         public double age
         {
-            set
+            private set
             {
                 if (value < 0)
                 {
@@ -39,12 +55,14 @@ namespace machine_lab1
 
         public double speed
         {
-            set
+            private set
             {
                 if (value < 0)
                 {
-                    throw new IncorrectArgumentException("Возраст машины не может быть отрицательным", "ошибка в поле age");
+                    throw new IncorrectArgumentException("Скорость машины не может быть отрицательной", "ошибка в поле age");
                 }
+
+                _speed = value;
             }
             get
             {
