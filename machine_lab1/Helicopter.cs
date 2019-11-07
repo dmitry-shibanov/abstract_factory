@@ -7,12 +7,12 @@ namespace machine_lab1
         {
         }
 
-        public override double price
+        public override double Price
         {
             get
             {
-                double currentPrice = initialPrice;
-                if (age > 11)
+                double currentPrice = InitialPrice;
+                if (Age > 11)
                 {
                     currentPrice = currentPrice * 0.3;
                 }
@@ -26,7 +26,7 @@ namespace machine_lab1
 
         public override DateTime drive(double way)
         {
-            double time = way / speed / 2;
+            double time = way / Speed / 2;
             return new DateTime((long)(time * 60 * 60 * 1000));
         }
     }

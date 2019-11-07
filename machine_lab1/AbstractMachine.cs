@@ -10,17 +10,17 @@ namespace machine_lab1
 
         public AbstractMachine(double age, double speed, double initialPrice)
         {
-            this.age = age;
-            this.speed = speed;
-            this.initialPrice = initialPrice;
+            this.Age = age;
+            this.Speed = speed;
+            this.InitialPrice = initialPrice;
         }
 
-        public abstract double price
+        public abstract double Price
         {
             get;
         }
 
-        public double initialPrice
+        public double InitialPrice
         {
             private set
             {
@@ -37,7 +37,7 @@ namespace machine_lab1
             }
         }
 
-        public double age
+        public double Age
         {
             private set
             {
@@ -53,7 +53,7 @@ namespace machine_lab1
             }
         }
 
-        public double speed
+        public double Speed
         {
             private set
             {
